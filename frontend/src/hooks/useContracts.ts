@@ -5,6 +5,8 @@ import { CONTRACT_ADDRESSES } from '../config/contracts.ts';
 // Contract ABIs (simplified - in production, import from compiled artifacts)
 export const IDENTITY_REGISTRY_ABI = [
     {
+
+        
         name: 'registerAgent',
         type: 'function',
         stateMutability: 'nonpayable',
