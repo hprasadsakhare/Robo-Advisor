@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useStrategy } from '../../hooks/useStrategy';
+import { useStrategy } from '../../hooks/useStrategy.ts';
 import { X, Play, Shield, Database, CheckCircle } from 'lucide-react';
 import toast from 'react-hot-toast';
 

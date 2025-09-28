@@ -1,6 +1,6 @@
 import React from 'react';
 import { ConnectButton } from '@rainbow-me/rainbowkit';
-import { useWallet } from '../../hooks/useWallet';
+import { useWallet } from '../../hooks/useWallet.ts';
 import { Wallet, Bot, TrendingUp } from 'lucide-react';
 
 export function Header() {

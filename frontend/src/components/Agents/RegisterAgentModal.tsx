@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useAgent } from '../../hooks/useAgent';
+import { useAgent } from '../../hooks/useAgent.ts';
 import { X, Bot } from 'lucide-react';
 import toast from 'react-hot-toast';
 
