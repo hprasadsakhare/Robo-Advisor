@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import { useStrategy } from '../../hooks/useStrategy';
-import { useAgent } from '../../hooks/useAgent';
+import { useStrategy } from '../../hooks/useStrategy.ts';
+import { useAgent } from '../../hooks/useAgent.ts';
 import { Activity, TrendingUp, TrendingDown, Clock, Shield } from 'lucide-react';
 import { format } from 'date-fns';
 

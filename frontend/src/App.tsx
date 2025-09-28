@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { WagmiConfig } from 'wagmi';
 import { RainbowKitProvider } from '@rainbow-me/rainbowkit';
-import { wagmiConfig, chains } from './config/wagmi';
+import { wagmiConfig, chains } from './config/wagmi.ts';
 import { Layout } from './components/Layout/Layout.tsx';
 import { Dashboard } from './components/Dashboard/Dashboard.tsx';
 import { AgentsList } from './components/Agents/AgentsList.tsx';

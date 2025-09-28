@@ -1,5 +1,5 @@
 import React from 'react';
-import { useDashboard } from '../../hooks/useDashboard';
+import { useDashboard } from '../../hooks/useDashboard.ts';
 import { StatsCard } from './StatsCard.tsx';
 import { APYChart } from './APYChart.tsx';
 import { Bot, TrendingUp, DollarSign, Activity } from 'lucide-react';

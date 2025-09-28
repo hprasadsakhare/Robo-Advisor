@@ -1,6 +1,6 @@
 import { usePublicClient, useWalletClient } from 'wagmi';
 import { getContract, parseAbi, createPublicClient, http } from 'viem';
-import { CONTRACT_ADDRESSES } from '../config/contracts';
+import { CONTRACT_ADDRESSES } from '../config/contracts.ts';
 
 // Contract ABIs (simplified - in production, import from compiled artifacts)
 export const IDENTITY_REGISTRY_ABI = [
